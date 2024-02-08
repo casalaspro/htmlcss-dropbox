@@ -39,11 +39,12 @@ body{
 
 
 .btn-sm{
-  line-height: 20px;
-  padding: 0 10px;
+  line-height: 36px;
+  padding: 7px 14px;
   background-color: #0061ff;
   color: white;
 }
+
 
 .btn-lg{
   line-height: 47px;
@@ -104,11 +105,11 @@ header .row > ul{
 
 .hero{
   background-color: #B4D0E7;
-  padding: 55px 0;
 }
 
 .hero h1{
   font-size: 77px;
+  padding: 55px 0;
 }
 
 .hero-text{
@@ -122,5 +123,5 @@ header .row > ul{
 }
 
 .hero img{
-  width: 88%;
+  width: 100%;
 }
