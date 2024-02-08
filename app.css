@@ -61,7 +61,6 @@ header .row > ul{
   display: flex;
   align-items: center;
   gap: 15px;
-
 }
 
 .logo-menu .row{
@@ -71,6 +70,10 @@ header .row > ul{
 .active-menu .row{
   justify-content: center;
 }
-.active-menu li:last-child{
+
+.btn-sm{
   line-height: 20px;
+  padding: 0 10px;
+  background-color: #0061ff;
+  color: white;
 }
