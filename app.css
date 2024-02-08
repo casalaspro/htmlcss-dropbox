@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 /* RESET */
 
 *{
@@ -23,6 +25,12 @@ li, ul, menu{
 
 .debug header .row > *{
   border: 1px solid blue;
+}
+
+/* UIILITIES */
+
+.body{
+  font-family: 'Noto Sans HK', sans-serif;
 }
 
 /* LAYOUT */
