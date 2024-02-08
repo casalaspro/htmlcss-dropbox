@@ -49,9 +49,12 @@ body{
 
 /* header */
 
+header{
+  padding: 20px;
+}
+
 header .row{
 justify-content: space-between;
-padding: 20px;
 }
 
 header .row > ul{
@@ -59,4 +62,15 @@ header .row > ul{
   align-items: center;
   gap: 15px;
 
+}
+
+.logo-menu .row{
+  justify-content: center;
+}
+
+.active-menu .row{
+  justify-content: center;
+}
+.active-menu li:last-child{
+  line-height: 20px;
 }
