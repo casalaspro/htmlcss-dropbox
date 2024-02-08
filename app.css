@@ -13,4 +13,18 @@ a{
 
 li, ul, menu{
   list-style: none;
-} 
+}
+
+/* LAYOUT */
+
+.container-lg{
+  width: 100%;
+}
+
+.container{
+  max-width: 1200px;
+}
+
+.container-sm{
+  max-width: 1000px;
+}
