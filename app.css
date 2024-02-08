@@ -90,7 +90,7 @@ justify-content: space-between;
 header .row > ul{
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 40px;
 }
 
 .logo-menu .row{
@@ -109,7 +109,7 @@ header .row > ul{
 
 .hero h1{
   font-size: 77px;
-  padding: 55px 0;
+  padding: 55px 0 36px 0;
 }
 
 .hero-text{
