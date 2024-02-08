@@ -15,6 +15,16 @@ li, ul, menu{
   list-style: none;
 }
 
+.row{
+  display: flex;
+}
+
+/* DEBUG */
+
+.debug header .row > *{
+  border: 1px solid blue;
+}
+
 /* LAYOUT */
 
 .container-lg{
