@@ -33,6 +33,14 @@ body{
   font-family: 'Noto Sans HK', sans-serif;
 }
 
+
+.btn-sm{
+  line-height: 20px;
+  padding: 0 10px;
+  background-color: #0061ff;
+  color: white;
+}
+
 /* LAYOUT */
 
 .container-lg{
@@ -41,10 +49,12 @@ body{
 
 .container{
   max-width: 1200px;
+  margin: 0 auto;
 }
 
 .container-sm{
   max-width: 1000px;
+  margin: 0 auto;
 }
 
 /* header */
@@ -71,9 +81,12 @@ header .row > ul{
   justify-content: center;
 }
 
-.btn-sm{
-  line-height: 20px;
-  padding: 0 10px;
-  background-color: #0061ff;
-  color: white;
+/* hero */
+
+.hero{
+  background-color: #B4D0E7;
+}
+
+.hero h1{
+  font-size: 77px;
 }
