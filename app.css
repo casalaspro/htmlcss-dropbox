@@ -17,10 +17,6 @@ li, ul, menu{
   list-style: none;
 }
 
-img{
-  width: 100%;
-}
-
 .row{
   display: flex;
 }
@@ -50,8 +46,8 @@ body{
 }
 
 .btn-lg{
-  line-height: 20px;
-  padding: 0 10px;
+  line-height: 47px;
+  padding: 12px 16px;
   background-color: #0061ff;
   color: white;
 }
@@ -83,7 +79,7 @@ body{
 /* header */
 
 header{
-  padding: 20px 0;
+  padding: 20px;
 }
 
 header .row{
@@ -123,4 +119,8 @@ header .row > ul{
 .hero-text i{
   margin-top: 1em;
   font-size: 45px;
+}
+
+.hero img{
+  width: 88%;
 }
