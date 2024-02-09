@@ -167,8 +167,8 @@ section.plans{
   padding: 10px 0;
 }
 
-.card-header span{
-  margin-left: 10px;
+.card-header i{
+  margin-right: 10px;
 }
 
 .card-main{
