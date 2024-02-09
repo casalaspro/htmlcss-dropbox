@@ -23,14 +23,6 @@ li, ul, menu{
 
 /* DEBUG */
 
-.debug header .row > *{
-  border: 1px solid blue;
-}
-
-.debug .hero .row > *{
-  border: 1px solid blue;
-}
-
 /* UIILITIES */
 
 body{
@@ -210,4 +202,8 @@ ul.card-main_list{
 .card-main_call-to-a > *{
   margin-bottom: 37px;
   display: block;
+}
+
+.card-main_call-to-a hr{
+  width: 20%;
 }
