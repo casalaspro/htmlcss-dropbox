@@ -189,6 +189,10 @@ section.plans{
   font-weight: 300;
 }
 
-.card-main ul{
+ul.card-main_list{
+  margin-bottom: 60px;
+}
 
+li.card-main_list:not(:last-child){
+  margin-bottom: 2em;
 }
