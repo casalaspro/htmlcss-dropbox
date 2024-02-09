@@ -212,3 +212,19 @@ ul.card-main_list{
   text-decoration: underline;
   color: #0061FF;
 }
+
+.plans li{
+  font-size: 15px;
+}
+
+.plans p{
+  font-size: 15px;
+}
+
+.card-main_bottom > li, .card-main_bottom > li > ul > li:not(li > li:last-child){
+  margin-bottom: 40px;
+}
+
+.card-main_bottom i{
+  color: #0061FF;
+}
