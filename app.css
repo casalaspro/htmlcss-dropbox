@@ -118,10 +118,10 @@ header .row > ul{
 }
 
 .hero-text i{
-  margin-top: 1em;
+  margin-top: auto;
   font-size: 45px;
 }
 
 .hero img{
-  width: 100%;
+  max-width: 100%;
 }
