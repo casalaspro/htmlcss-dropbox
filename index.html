@@ -55,15 +55,32 @@
     <!-- HERO END -->
 
     <section class="plans">
+
       <div class="container-sm">
         <h2 class="section-title">Trova il piano business che fa per te</h2>
 
         <form action="/action_page.php">
-          <input type="radio" id="monthly" name="bill" value="monthly">
+          <span class="bill_monthly">
+            <input type="radio" id="monthly" name="bill" value="monthly">
           <label for="monthly">Fatturazione mensile</label>
-          <input type="radio" id="yearly" name="bill" value="yearly">
+          </span>
+          <span class="bill_yearly">
+            <input type="radio" id="yearly" name="bill" value="yearly">
           <label for="yearly">Fatturazione annuale</label>
+          </span>
         </form>
+      </div>
+
+      <div class="container-sm">
+        <div class="row">
+          <div class="col-4">
+            <div class="plans_card">
+              <div class="card-header">
+                <i class="fa-solid fa-user"></i><span>Singolo</span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       
     </section>
