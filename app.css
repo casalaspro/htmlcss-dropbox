@@ -131,6 +131,7 @@ header .row > ul{
 /* plans */
 
 .plans .container-sm{
+  padding: 20px 0;
 }
 
 h2.section-title{
@@ -160,4 +161,8 @@ section.plans{
   text-align: center;
   line-height: 20px;
   padding: 10px 0;
+}
+
+.card-header span{
+  margin-left: 10px;
 }
