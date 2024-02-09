@@ -127,3 +127,15 @@ header .row > ul{
 .hero img{
   max-width: 100%;
 }
+
+/* plans */
+
+h2.section-title{
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 70px;
+}
+
+section.plans{
+  padding-top: 150px;
+}
