@@ -178,3 +178,9 @@ section.plans{
 .card-main_title h3, .card-main_title h5{
   margin-bottom: 1em;
 }
+
+.card-main_title h6{
+  color: #b1b1b1;
+  font-size: 17px;
+  font-weight: 300;
+}
