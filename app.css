@@ -193,6 +193,10 @@ ul.card-main_list{
   margin-bottom: 60px;
 }
 
-li.card-main_list:not(:last-child){
+.card-main_list li:not(:last-child){
   margin-bottom: 2em;
+}
+
+.card-main_call-to-a > *:not(:last-child){
+  margin-bottom: 37px;
 }
