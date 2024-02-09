@@ -73,9 +73,11 @@ body{
 }
 
 .container-sm{
-  max-width: 1000px;
+  max-width: 1040px;
   margin: 0 auto;
 }
+
+/* ricordarsi di aggiungere 20px di padding alle cards */
 
 /* header */
 
