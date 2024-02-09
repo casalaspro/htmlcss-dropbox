@@ -207,3 +207,8 @@ ul.card-main_list{
 .card-main_call-to-a hr{
   width: 20%;
 }
+
+.card-main_call-to-a p > a{
+  text-decoration: underline;
+  color: #0061FF;
+}
