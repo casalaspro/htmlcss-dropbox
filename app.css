@@ -238,3 +238,11 @@ ul.card-main_list{
 .fa-ul li {
   margin-bottom: 37px;
 }
+
+.card-main_bottom:nth-child(odd){
+  margin-bottom: 100%;
+}
+
+.plans .row{
+  row-gap: 40px;
+}
