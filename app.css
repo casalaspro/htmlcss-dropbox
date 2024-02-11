@@ -253,7 +253,7 @@ ul.card-main_list{
 
 /* plans_card_large */
 
-.plans_card_large .card-main{
+.plans_card_large .card-main-title{
   display: flex;
   justify-content: space-between;
 }
