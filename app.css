@@ -19,6 +19,7 @@ li, ul, menu{
 
 .row{
   display: flex;
+  flex-wrap: wrap;
 }
 
 /* DEBUG */
