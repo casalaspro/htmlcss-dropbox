@@ -62,6 +62,10 @@ body{
   width: calc(8 * 100% / 12);
 }
 
+.col-12{
+  width: 100%;
+}
+
 /* LAYOUT */
 
 .container-lg{
@@ -245,4 +249,11 @@ ul.card-main_list{
 
 .plans .row{
   row-gap: 40px;
+}
+
+/* plans_card_large */
+
+.plans_card_large .card-main{
+  display: flex;
+  justify-content: space-between;
 }
