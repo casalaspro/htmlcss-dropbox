@@ -221,10 +221,19 @@ ul.card-main_list{
   font-size: 15px;
 }
 
-.card-main_bottom > li, .card-main_bottom > li > ul > li:not(li > li:last-child){
+.card-main_bottom i{
+  color: #0061FF;
+  margin: 0;
+}
+
+.card-main_bottom h4{
   margin-bottom: 40px;
 }
 
-.card-main_bottom i{
-  color: #0061FF;
+.card-main_bottom {
+  --fa-li-margin: 2em;
+}
+
+.fa-ul li {
+  margin-bottom: 37px;
 }
