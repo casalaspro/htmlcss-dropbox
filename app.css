@@ -73,6 +73,10 @@ body{
   width: calc(4 * 100% / 12);
 }
 
+.col-5{
+  width: calc(5 * 100% / 12);
+}
+
 .col-7{
   width: calc(7 * 100% / 12);
 }
@@ -287,7 +291,7 @@ ul.card-main_list{
 
 /* PARTNER */
 
-.partner .col-4{
+.partner .col-5{
   padding: 40px;
 }
 
@@ -297,4 +301,8 @@ ul.card-main_list{
 
 .partner img{
   width: 100%;
+}
+
+.partner .col-5 > *:not(:last-child){
+  margin-bottom: 40px;
 }
