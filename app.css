@@ -355,11 +355,19 @@ ul.card-main_list{
 }
 
 .col-4.brand-box-center{
-  padding: 50px;
+  padding: 0 50px;
 }
 
-.brands .brands-image-center{
-  width: 70%;
+.brands .brands-image-center svg{
+  width: 50%;
+}
+
+.brands .brands-image-center::after{
+  content: "";
+  height: 1px;
+  width: 70px;
+  background-color: #D5D5D7;
+  display: block;
 }
 
 
