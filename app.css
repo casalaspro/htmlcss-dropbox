@@ -66,8 +66,16 @@ body{
   border-left: black;
 }
 
-.col-4{
+.col-3{
+  width: calc(3 * 100% / 12);
+}
+
+.col-7{
   width: calc(4 * 100% / 12);
+}
+
+.col-8{
+  width: calc(7 * 100% / 12);
 }
 
 .col-8{
@@ -255,8 +263,12 @@ ul.card-main_list{
   margin-bottom: 37px;
 }
 
-.card-main_bottom:nth-child(odd){
+/* .card-main_bottom:nth-child(odd){
   margin-bottom: 100%;
+} */
+
+.plans .plans_card{
+  height: 100%;
 }
 
 .plans .row{
