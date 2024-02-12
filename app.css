@@ -340,10 +340,6 @@ ul.card-main_list{
 
 /* BRANDS */
 
-.brands .col-4 > *{
-  border: solid 1px red;
-}
-
 .brands .brands-box{
   width: 50%;
   aspect-ratio: 1/1;
