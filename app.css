@@ -54,6 +54,18 @@ body{
   text-align: center;
 }
 
+.btn-white{
+  line-height: 41px;
+  padding: 1px 0px;
+  background-color: #ffffff;
+  color: black;
+  text-align: center;
+  border-top: #E2E2E2;
+  border-right: #E2E2E2;
+  border-bottom: black;
+  border-left: black;
+}
+
 .col-4{
   width: calc(4 * 100% / 12);
 }
