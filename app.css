@@ -166,7 +166,7 @@ section.plans{
 }
 
 .card-header{
-  border: 1px solid #EDEDEE;
+  border-bottom: 1px solid #EDEDEE;
   text-align: center;
   line-height: 20px;
   padding: 10px 0;
