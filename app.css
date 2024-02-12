@@ -295,6 +295,10 @@ ul.card-main_list{
   padding: 40px;
 }
 
+.partner .row{
+  padding: 32px;
+}
+
 .partner h2.section-title-sm{
   font-size: 22px
 }
@@ -304,5 +308,23 @@ ul.card-main_list{
 }
 
 .partner .col-5 > *:not(:last-child){
+  margin-bottom: 40px;
+}
+
+/* BUSINESS */
+
+.business .container-sm:nth-child(1){
+  padding: 0 32px;
+}
+
+.business img{
+  width: 100%;
+}
+
+.business .col-4{
+  padding: 32px;
+}
+
+.business .col-4 > *:not(:last-child){
   margin-bottom: 40px;
 }
