@@ -56,14 +56,13 @@ body{
 
 .btn-white{
   line-height: 41px;
-  padding: 1px 0px;
+  padding: 0px 23px;
   background-color: #ffffff;
   color: black;
   text-align: center;
-  border-top: 1px #E2E2E2;
-  border-right: 1px #E2E2E2;
-  border-bottom: 1px black;
-  border-left: 1px black;
+  border-style: outset;
+  display: inline-block;
+
 }
 
 .col-3{
@@ -288,7 +287,7 @@ ul.card-main_list{
 
 /* PARTNER */
 
-.partner .col-3{
+.partner .col-4{
   padding: 40px;
 }
 
