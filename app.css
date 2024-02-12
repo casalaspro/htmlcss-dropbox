@@ -105,6 +105,16 @@ body{
   margin: 0 auto;
 }
 
+section{
+  margin-bottom: 70px;
+}
+
+.blue-link{
+  text-decoration: underline;
+  color: #0061FF;
+}
+
+
 /* ricordarsi di aggiungere 20px di padding alle cards */
 
 /* header */
@@ -173,7 +183,7 @@ h2.section-title{
 }
 
 section.plans{
-  padding-top: 120px;
+  padding-top: 50px;
 }
 
 .bill_monthly{
@@ -234,11 +244,6 @@ ul.card-main_list{
 
 .card-main_call-to-a hr{
   width: 20%;
-}
-
-.card-main_call-to-a p > a{
-  text-decoration: underline;
-  color: #0061FF;
 }
 
 .plans li{
@@ -308,13 +313,17 @@ ul.card-main_list{
 }
 
 .partner .col-5 > *:not(:last-child){
-  margin-bottom: 40px;
+  margin-bottom: 10px;
 }
 
 /* BUSINESS */
 
 .business .container-sm:nth-child(odd){
   padding: 0 32px;
+}
+
+.business .row{
+  margin-bottom: 70px;
 }
 
 .business img{
@@ -328,3 +337,24 @@ ul.card-main_list{
 .business .col-4 > *:not(:last-child){
   margin-bottom: 40px;
 }
+
+/* BRANDS */
+
+.brands .col-4 > *{
+  border: solid 1px red;
+}
+
+.brands .brands-box{
+  width: 50%;
+  aspect-ratio: 1/1;
+  justify-content: center;
+  align-items: center;
+}
+
+.brands .brands-box img{
+  width: 70%;
+}
+
+
+
+
