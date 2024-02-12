@@ -60,10 +60,10 @@ body{
   background-color: #ffffff;
   color: black;
   text-align: center;
-  border-top: #E2E2E2;
-  border-right: #E2E2E2;
-  border-bottom: black;
-  border-left: black;
+  border-top: 1px #E2E2E2;
+  border-right: 1px #E2E2E2;
+  border-bottom: 1px black;
+  border-left: 1px black;
 }
 
 .col-3{
@@ -284,4 +284,18 @@ ul.card-main_list{
 
 .plans_card_large .card-main_title h5{
   margin-bottom: 60px;
+}
+
+/* PARTNER */
+
+.partner .col-3{
+  padding: 40px;
+}
+
+.partner h2.section-title-sm{
+  font-size: 22px
+}
+
+.partner img{
+  width: 100%;
 }
