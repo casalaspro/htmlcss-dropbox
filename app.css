@@ -313,7 +313,7 @@ ul.card-main_list{
 }
 
 .partner .col-5 > *:not(:last-child){
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 
 /* BUSINESS */
@@ -359,7 +359,7 @@ ul.card-main_list{
 }
 
 .brands .brands-image-center svg{
-  width: 50%;
+  width: 60%;
 }
 
 .brands .brands-image-center::after{
@@ -368,6 +368,26 @@ ul.card-main_list{
   width: 70px;
   background-color: #D5D5D7;
   display: block;
+}
+
+.col-4.brand-box-center > *:not(:last-child){
+  margin-bottom: 50px;
+}
+
+.col-4.brand-box-center p{
+  font-size: 12px;
+}
+
+/* TRY */
+
+section.try{
+  background-color: #B4D0E7;
+}
+
+.try .row{
+  padding: 70px 0;
+  justify-content: space-between;
+  align-items: center;
 }
 
 
