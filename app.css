@@ -170,10 +170,12 @@ header .row > ul{
 .hero-text i{
   margin-top: auto;
   font-size: 45px;
+  padding-bottom: 40px;
 }
 
 .hero img{
-  max-width: 100%;
+  max-width: 50%;
+  position: absolute;
 }
 
 /* plans */
@@ -358,6 +360,10 @@ ul.card-main_list{
 .business-bottom a{
   text-decoration: underline;
   color: #0061FF;
+}
+
+section.business{
+  margin-bottom: 140px;
 }
 
 /* BRANDS */
