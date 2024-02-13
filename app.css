@@ -428,6 +428,20 @@ section.try{
   padding: 0 50px;
 }
 
+/* FOOTER */
+
+footer{
+  background-color: black;
+}
+
+footer .container .row{
+  justify-content: space-between;
+}
+
+footer .col{
+  color: white;
+}
+
 
 
 
