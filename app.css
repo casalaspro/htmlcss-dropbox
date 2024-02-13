@@ -22,8 +22,6 @@ li, ul, menu{
   flex-wrap: wrap;
 }
 
-/* DEBUG */
-
 /* UIILITIES */
 
 body{
@@ -123,9 +121,6 @@ section:not(.brands){
   text-decoration: underline;
   color: #0061FF;
 }
-
-
-/* ricordarsi di aggiungere 20px di padding alle cards */
 
 /* header */
 
@@ -286,10 +281,6 @@ ul.card-main_list{
   margin-bottom: 37px;
 }
 
-/* .card-main_bottom:nth-child(odd){
-  margin-bottom: 100%;
-} */
-
 .plans .plans_card{
   height: 100%;
 }
@@ -297,8 +288,6 @@ ul.card-main_list{
 .plans .row{
   row-gap: 40px;
 }
-
-/* plans_card_large */
 
 .plans_card_large .card-main_title{
   display: flex;
