@@ -435,7 +435,7 @@ footer{
   padding-top: 100px;
 }
 
-footer .container .row{
+footer .container.footer-top .row{
   justify-content: space-between;
   margin-bottom: 100px;
 }
@@ -452,12 +452,21 @@ footer span{
   margin: 0 10px;
 }
 
-footer .container.footer-bottom{
-  display: flex;
-  align-items: center;
+footer .container.footer-bottom .row{
   color: #D5D5D7;
   padding: 50px 0;
-  border-top: 1px solid #D5D5D7;
+}
+
+footer .container.footer-bottom .row{
+  align-items: center;
+}
+
+footer .container.footer-bottom::before{
+  content: "";
+  height: 1px;
+  width: 110px;
+  background-color: #D5D5D7;
+  display: inline-block;
 }
 
 
