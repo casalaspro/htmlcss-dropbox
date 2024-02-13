@@ -351,6 +351,15 @@ ul.card-main_list{
   margin-bottom: 40px;
 }
 
+.business-bottom h2{
+  margin-bottom: 70px;
+}
+
+.business-bottom a{
+  text-decoration: underline;
+  color: #0061FF;
+}
+
 /* BRANDS */
 
 .brands .brands-box{
